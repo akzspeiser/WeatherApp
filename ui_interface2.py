@@ -14,37 +14,37 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(628, 355)
+        MainWindow.resize(649, 355)
         MainWindow.setStyleSheet("* {\n"
-"    border: none;\n"
-"    background-color: transparent;\n"
-"    background: transparent;\n"
-"    padding: 0;\n"
-"    margin: 0;\n"
-"    color: #fff;\n"
-"}\n"
-"#centralwidget {\n"
-"    background-color: #1f232a;\n"
-"}\n"
-"#leftMenuSubContainer{\n"
-"    background-color: #16191d;\n"
-"}\n"
-"#leftMenuSubContainer QPushButton {\n"
-"    text-align: left;\n"
-"    padding: 5px 10px;\n"
-"    border-top-left-radius: 10px;\n"
-"    border-bottom-left-radius: 10px;\n"
-"}\n"
-"#centerMenuSubContainer, #rightMenuSubContainer {\n"
-"    background-color: #2c313c;\n"
-"}\n"
-"#frame_4, #frame_8, #popupNotificationSubContainer {\n"
-"    background-color: #16191d;\n"
-"    border-radius: 10px;\n"
-"}\n"
-"#headerContainer, #footerContainer {\n"
-"     background-color: #2c313c;\n"
-"}")
+                                 "    border: none;\n"
+                                 "    background-color: transparent;\n"
+                                 "    background: transparent;\n"
+                                 "    padding: 0;\n"
+                                 "    margin: 0;\n"
+                                 "    color: #ffffff;\n"
+                                 "}\n"
+                                 "#centralwidget {\n"
+                                 "    background-color: #1f232a;\n"
+                                 "}\n"
+                                 "#leftMenuSubContainer{\n"
+                                 "    background-color: #16191d;\n"
+                                 "}\n"
+                                 "#leftMenuSubContainer QPushButton {\n"
+                                 "    text-align: left;\n"
+                                 "    padding: 5px 10px;\n"
+                                 "    border-top-left-radius: 10px;\n"
+                                 "    border-bottom-left-radius: 10px;\n"
+                                 "}\n"
+                                 "#centerMenuSubContainer, #rightMenuSubContainer {\n"
+                                 "    background-color: #2c313c;\n"
+                                 "}\n"
+                                 "#frame_4, #frame_8, #popupNotificationSubContainer {\n"
+                                 "    background-color: #16191d;\n"
+                                 "    border-radius: 10px;\n"
+                                 "}\n"
+                                 "#headerContainer, #footerContainer {\n"
+                                 "     background-color: #2c313c;\n"
+                                 "}")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
@@ -213,7 +213,22 @@ class Ui_MainWindow(object):
         self.label_2.setFont(font)
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setObjectName("label_2")
-        self.verticalLayout_7.addWidget(self.label_2)
+        self.verticalLayout_7.addWidget(self.label_2, 0, QtCore.Qt.AlignTop)
+        self.label_34 = QtWidgets.QLabel(self.page)
+        self.label_34.setObjectName("label_34")
+        self.verticalLayout_7.addWidget(self.label_34)
+        self.label_35 = QtWidgets.QLabel(self.page)
+        self.label_35.setObjectName("label_35")
+        self.verticalLayout_7.addWidget(self.label_35)
+        self.label_36 = QtWidgets.QLabel(self.page)
+        self.label_36.setObjectName("label_36")
+        self.verticalLayout_7.addWidget(self.label_36)
+        self.label_37 = QtWidgets.QLabel(self.page)
+        self.label_37.setObjectName("label_37")
+        self.verticalLayout_7.addWidget(self.label_37)
+        self.label_38 = QtWidgets.QLabel(self.page)
+        self.label_38.setObjectName("label_38")
+        self.verticalLayout_7.addWidget(self.label_38)
         self.centerMenuPages.addWidget(self.page)
         self.page_2 = QtWidgets.QWidget()
         self.page_2.setObjectName("page_2")
@@ -232,6 +247,26 @@ class Ui_MainWindow(object):
         self.label_3.setAlignment(QtCore.Qt.AlignCenter)
         self.label_3.setObjectName("label_3")
         self.verticalLayout_8.addWidget(self.label_3)
+        self.label_39 = QtWidgets.QLabel(self.page_2)
+        self.label_39.setWordWrap(True)
+        self.label_39.setObjectName("label_39")
+        self.verticalLayout_8.addWidget(self.label_39)
+        self.label_40 = QtWidgets.QLabel(self.page_2)
+        self.label_40.setWordWrap(True)
+        self.label_40.setObjectName("label_40")
+        self.verticalLayout_8.addWidget(self.label_40)
+        self.label_41 = QtWidgets.QLabel(self.page_2)
+        self.label_41.setWordWrap(True)
+        self.label_41.setObjectName("label_41")
+        self.verticalLayout_8.addWidget(self.label_41)
+        self.label_42 = QtWidgets.QLabel(self.page_2)
+        self.label_42.setWordWrap(True)
+        self.label_42.setObjectName("label_42")
+        self.verticalLayout_8.addWidget(self.label_42)
+        self.label_43 = QtWidgets.QLabel(self.page_2)
+        self.label_43.setWordWrap(True)
+        self.label_43.setObjectName("label_43")
+        self.verticalLayout_8.addWidget(self.label_43)
         self.centerMenuPages.addWidget(self.page_2)
         self.verticalLayout_6.addWidget(self.centerMenuPages)
         self.verticalLayout_5.addWidget(self.centerMenuSubContainer, 0, QtCore.Qt.AlignLeft)
@@ -363,29 +398,71 @@ class Ui_MainWindow(object):
         self.mainPages.setObjectName("mainPages")
         self.page_5 = QtWidgets.QWidget()
         self.page_5.setObjectName("page_5")
-        self.verticalLayout_16 = QtWidgets.QVBoxLayout(self.page_5)
-        self.verticalLayout_16.setContentsMargins(0, 0, 0, 0)
-        self.verticalLayout_16.setObjectName("verticalLayout_16")
-        self.label_10 = QtWidgets.QLabel(self.page_5)
-        font = QtGui.QFont()
-        font.setPointSize(13)
-        self.label_10.setFont(font)
-        self.label_10.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_10.setObjectName("label_10")
-        self.verticalLayout_16.addWidget(self.label_10)
-        self.mainPages.addWidget(self.page_5)
-        self.page_6 = QtWidgets.QWidget()
-        self.page_6.setObjectName("page_6")
-        self.verticalLayout_15 = QtWidgets.QVBoxLayout(self.page_6)
+        self.verticalLayout_15 = QtWidgets.QVBoxLayout(self.page_5)
         self.verticalLayout_15.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_15.setObjectName("verticalLayout_15")
-        self.label_9 = QtWidgets.QLabel(self.page_6)
+        self.label_27 = QtWidgets.QLabel(self.page_5)
         font = QtGui.QFont()
         font.setPointSize(13)
+        font.setBold(False)
+        self.label_27.setFont(font)
+        self.label_27.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_27.setObjectName("label_27")
+        self.verticalLayout_15.addWidget(self.label_27)
+        self.label_17 = QtWidgets.QLabel(self.page_5)
+        self.label_17.setMaximumSize(QtCore.QSize(100, 100))
+        self.label_17.setBaseSize(QtCore.QSize(0, 0))
+        self.label_17.setText("")
+        self.label_17.setPixmap(QtGui.QPixmap(":/Images/pythonProject/WeatherApp/blacksun.jpg"))
+        self.label_17.setScaledContents(True)
+        self.label_17.setAlignment(QtCore.Qt.AlignHCenter | QtCore.Qt.AlignTop)
+        self.label_17.setObjectName("label_17")
+        self.verticalLayout_15.addWidget(self.label_17, 0, QtCore.Qt.AlignHCenter)
+        self.label_9 = QtWidgets.QLabel(self.page_5)
+        font = QtGui.QFont()
+        font.setPointSize(13)
+        font.setBold(True)
         self.label_9.setFont(font)
         self.label_9.setAlignment(QtCore.Qt.AlignCenter)
         self.label_9.setObjectName("label_9")
         self.verticalLayout_15.addWidget(self.label_9)
+        self.label_16 = QtWidgets.QLabel(self.page_5)
+        font = QtGui.QFont()
+        font.setBold(True)
+        self.label_16.setFont(font)
+        self.label_16.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_16.setObjectName("label_16")
+        self.verticalLayout_15.addWidget(self.label_16)
+        self.mainPages.addWidget(self.page_5)
+        self.page_6 = QtWidgets.QWidget()
+        self.page_6.setObjectName("page_6")
+        self.verticalLayout_16 = QtWidgets.QVBoxLayout(self.page_6)
+        self.verticalLayout_16.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_16.setObjectName("verticalLayout_16")
+        self.label_10 = QtWidgets.QLabel(self.page_6)
+        font = QtGui.QFont()
+        font.setPointSize(13)
+        self.label_10.setFont(font)
+        self.label_10.setAlignment(QtCore.Qt.AlignHCenter | QtCore.Qt.AlignTop)
+        self.label_10.setObjectName("label_10")
+        self.verticalLayout_16.addWidget(self.label_10)
+        self.label_25 = QtWidgets.QLabel(self.page_6)
+        font = QtGui.QFont()
+        font.setPointSize(16)
+        font.setBold(True)
+        self.label_25.setFont(font)
+        self.label_25.setScaledContents(False)
+        self.label_25.setAlignment(QtCore.Qt.AlignHCenter | QtCore.Qt.AlignTop)
+        self.label_25.setObjectName("label_25")
+        self.verticalLayout_16.addWidget(self.label_25)
+        self.label_26 = QtWidgets.QLabel(self.page_6)
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        font.setBold(True)
+        self.label_26.setFont(font)
+        self.label_26.setAlignment(QtCore.Qt.AlignHCenter | QtCore.Qt.AlignTop)
+        self.label_26.setObjectName("label_26")
+        self.verticalLayout_16.addWidget(self.label_26)
         self.mainPages.addWidget(self.page_6)
         self.page_7 = QtWidgets.QWidget()
         self.page_7.setObjectName("page_7")
@@ -399,6 +476,27 @@ class Ui_MainWindow(object):
         self.label_11.setAlignment(QtCore.Qt.AlignCenter)
         self.label_11.setObjectName("label_11")
         self.verticalLayout_18.addWidget(self.label_11)
+        self.label_24 = QtWidgets.QLabel(self.page_7)
+        self.label_24.setObjectName("label_24")
+        self.verticalLayout_18.addWidget(self.label_24)
+        self.label_23 = QtWidgets.QLabel(self.page_7)
+        self.label_23.setObjectName("label_23")
+        self.verticalLayout_18.addWidget(self.label_23)
+        self.label_22 = QtWidgets.QLabel(self.page_7)
+        self.label_22.setObjectName("label_22")
+        self.verticalLayout_18.addWidget(self.label_22)
+        self.label_21 = QtWidgets.QLabel(self.page_7)
+        self.label_21.setObjectName("label_21")
+        self.verticalLayout_18.addWidget(self.label_21)
+        self.label_20 = QtWidgets.QLabel(self.page_7)
+        self.label_20.setObjectName("label_20")
+        self.verticalLayout_18.addWidget(self.label_20)
+        self.label_19 = QtWidgets.QLabel(self.page_7)
+        self.label_19.setObjectName("label_19")
+        self.verticalLayout_18.addWidget(self.label_19)
+        self.label_18 = QtWidgets.QLabel(self.page_7)
+        self.label_18.setObjectName("label_18")
+        self.verticalLayout_18.addWidget(self.label_18)
         self.mainPages.addWidget(self.page_7)
         self.page_8 = QtWidgets.QWidget()
         self.page_8.setObjectName("page_8")
@@ -409,6 +507,8 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(13)
         self.label_12.setFont(font)
+        self.label_12.setText("")
+        self.label_12.setPixmap(QtGui.QPixmap(":/Images/pythonProject/WeatherApp/weathermap.jpg"))
         self.label_12.setAlignment(QtCore.Qt.AlignCenter)
         self.label_12.setObjectName("label_12")
         self.verticalLayout_17.addWidget(self.label_12)
@@ -416,7 +516,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_14.addWidget(self.mainPages)
         self.horizontalLayout_8.addWidget(self.mainContentContainer)
         self.rightMenuContainer = QCustomSlideMenu(self.mainBodyContent)
-        self.rightMenuContainer.setMinimumSize(QtCore.QSize(200, 0))
+        self.rightMenuContainer.setMinimumSize(QtCore.QSize(220, 0))
         self.rightMenuContainer.setObjectName("rightMenuContainer")
         self.verticalLayout_10 = QtWidgets.QVBoxLayout(self.rightMenuContainer)
         self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
@@ -439,17 +539,25 @@ class Ui_MainWindow(object):
         self.horizontalLayout_9.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_9.setSpacing(0)
         self.horizontalLayout_9.setObjectName("horizontalLayout_9")
+        self.label_44 = QtWidgets.QLabel(self.frame_8)
+        self.label_44.setText("")
+        self.label_44.setPixmap(QtGui.QPixmap(":/icons/map-pin.svg"))
+        self.label_44.setObjectName("label_44")
+        self.horizontalLayout_9.addWidget(self.label_44, 0, QtCore.Qt.AlignLeft)
         self.label_6 = QtWidgets.QLabel(self.frame_8)
         self.label_6.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6.setObjectName("label_6")
-        self.horizontalLayout_9.addWidget(self.label_6, 0, QtCore.Qt.AlignVCenter)
+        self.horizontalLayout_9.addWidget(self.label_6, 0, QtCore.Qt.AlignHCenter)
+        self.lineEdit = QtWidgets.QLineEdit(self.frame_8)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout_9.addWidget(self.lineEdit, 0, QtCore.Qt.AlignRight)
         self.closeRightMenuButton = QtWidgets.QPushButton(self.frame_8)
         self.closeRightMenuButton.setText("")
         self.closeRightMenuButton.setIcon(icon7)
         self.closeRightMenuButton.setIconSize(QtCore.QSize(24, 24))
         self.closeRightMenuButton.setObjectName("closeRightMenuButton")
-        self.horizontalLayout_9.addWidget(self.closeRightMenuButton, 0, QtCore.Qt.AlignRight|QtCore.Qt.AlignTop)
-        self.verticalLayout_11.addWidget(self.frame_8, 0, QtCore.Qt.AlignTop)
+        self.horizontalLayout_9.addWidget(self.closeRightMenuButton, 0, QtCore.Qt.AlignRight | QtCore.Qt.AlignTop)
+        self.verticalLayout_11.addWidget(self.frame_8)
         self.rightMenuPages = QCustomStackedWidget(self.rightMenuSubContainer)
         self.rightMenuPages.setObjectName("rightMenuPages")
         self.page_3 = QtWidgets.QWidget()
@@ -463,7 +571,16 @@ class Ui_MainWindow(object):
         self.label_7.setFont(font)
         self.label_7.setAlignment(QtCore.Qt.AlignCenter)
         self.label_7.setObjectName("label_7")
-        self.verticalLayout_12.addWidget(self.label_7)
+        self.verticalLayout_12.addWidget(self.label_7, 0, QtCore.Qt.AlignTop)
+        self.label_28 = QtWidgets.QLabel(self.page_3)
+        self.label_28.setObjectName("label_28")
+        self.verticalLayout_12.addWidget(self.label_28)
+        self.label_29 = QtWidgets.QLabel(self.page_3)
+        self.label_29.setObjectName("label_29")
+        self.verticalLayout_12.addWidget(self.label_29)
+        self.label_30 = QtWidgets.QLabel(self.page_3)
+        self.label_30.setObjectName("label_30")
+        self.verticalLayout_12.addWidget(self.label_30)
         self.rightMenuPages.addWidget(self.page_3)
         self.page_4 = QtWidgets.QWidget()
         self.page_4.setObjectName("page_4")
@@ -476,7 +593,16 @@ class Ui_MainWindow(object):
         self.label_8.setFont(font)
         self.label_8.setAlignment(QtCore.Qt.AlignCenter)
         self.label_8.setObjectName("label_8")
-        self.verticalLayout_13.addWidget(self.label_8)
+        self.verticalLayout_13.addWidget(self.label_8, 0, QtCore.Qt.AlignTop)
+        self.label_31 = QtWidgets.QLabel(self.page_4)
+        self.label_31.setObjectName("label_31")
+        self.verticalLayout_13.addWidget(self.label_31)
+        self.label_32 = QtWidgets.QLabel(self.page_4)
+        self.label_32.setObjectName("label_32")
+        self.verticalLayout_13.addWidget(self.label_32)
+        self.label_33 = QtWidgets.QLabel(self.page_4)
+        self.label_33.setObjectName("label_33")
+        self.verticalLayout_13.addWidget(self.label_33)
         self.rightMenuPages.addWidget(self.page_4)
         self.verticalLayout_11.addWidget(self.rightMenuPages)
         self.verticalLayout_10.addWidget(self.rightMenuSubContainer)
@@ -580,24 +706,56 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "More Menu"))
         self.closeCenterMenuButton.setToolTip(_translate("MainWindow", "Close Menu"))
         self.label_2.setText(_translate("MainWindow", "Settings"))
+        self.label_34.setText(_translate("MainWindow", "Unit of Measurement: F"))
+        self.label_35.setText(_translate("MainWindow", "Location Settings: GPS"))
+        self.label_36.setText(_translate("MainWindow", "Language: English"))
+        self.label_37.setText(_translate("MainWindow", "Privacy: data sharing"))
+        self.label_38.setText(_translate("MainWindow", "Feedback: Click Here"))
         self.label_3.setText(_translate("MainWindow", "Help"))
+        self.label_39.setText(
+            _translate("MainWindow", "Add new zip code: Click the profile icon and add zipcode to searchbar."))
+        self.label_40.setText(_translate("MainWindow",
+                                         "Notification Message: Click the bell icon and the notification message will pop-up."))
+        self.label_41.setText(
+            _translate("MainWindow", "Open More... Window: Click on the three dots for a menu with more options."))
+        self.label_42.setText(_translate("MainWindow", "Weather: Click on icons on the left icon bar."))
+        self.label_43.setText(_translate("MainWindow", "Settings: Click the gear symbol."))
         self.label_5.setText(_translate("MainWindow", "WeatherApp"))
         self.moreMenuButton.setToolTip(_translate("MainWindow", "More"))
         self.profileMenuButton.setToolTip(_translate("MainWindow", "Profile"))
         self.minimizeButton.setToolTip(_translate("MainWindow", "Minimize Window"))
         self.restoreButton.setToolTip(_translate("MainWindow", "Restore Window"))
         self.closeButton.setToolTip(_translate("MainWindow", "Close Window"))
-        self.label_10.setText(_translate("MainWindow", "Daily"))
-        self.label_9.setText(_translate("MainWindow", "Home"))
-        self.label_11.setText(_translate("MainWindow", "Weekly"))
-        self.label_12.setText(_translate("MainWindow", "Weather Map"))
-        self.label_6.setText(_translate("MainWindow", "Right Menu"))
+        self.label_27.setText(_translate("MainWindow", "Home"))
+        self.label_9.setText(_translate("MainWindow", "72° F Partly Cloudy"))
+        self.label_16.setText(_translate("MainWindow", "Wind: SE 3 mph"))
+        self.label_10.setText(_translate("MainWindow", "Daily Forcast"))
+        self.label_25.setText(_translate("MainWindow", "72° F"))
+        self.label_26.setText(_translate("MainWindow", "Sunny 74°/55°"))
+        self.label_11.setText(_translate("MainWindow", "Weekly Forcast"))
+        self.label_24.setText(_translate("MainWindow", "Monday: Partly Cloudy 81°/65°"))
+        self.label_23.setText(_translate("MainWindow", "Tuesday: Mostly Sunny 85°/72°"))
+        self.label_22.setText(_translate("MainWindow", "Wednesday: Sunny 92°/75°"))
+        self.label_21.setText(_translate("MainWindow", "Thursday: Sunny 95°/82°"))
+        self.label_20.setText(_translate("MainWindow", "Friday: Mostly Sunny 82°/70°"))
+        self.label_19.setText(_translate("MainWindow", "Saturday: Cloudy 72°/58°"))
+        self.label_18.setText(_translate("MainWindow", "Sunday: Cloudy 70°/55°"))
+        self.label_6.setText(_translate("MainWindow", "Zipcode:"))
+        self.lineEdit.setText(_translate("MainWindow", "97478"))
         self.closeRightMenuButton.setToolTip(_translate("MainWindow", "Close Menu"))
         self.label_7.setText(_translate("MainWindow", "Profile"))
+        self.label_28.setText(_translate("MainWindow", "User: Zac"))
+        self.label_29.setText(_translate("MainWindow", "Zipcode: 97478"))
+        self.label_30.setText(_translate("MainWindow", "Zipcodes: 97478, 99567"))
         self.label_8.setText(_translate("MainWindow", "More..."))
+        self.label_31.setText(_translate("MainWindow", "Air Quality Index: 37"))
+        self.label_32.setText(_translate("MainWindow", "UV Index: 2 (Low)"))
+        self.label_33.setText(_translate("MainWindow", "Weather News: \"Hot...\""))
         self.label_14.setText(_translate("MainWindow", "Notification"))
-        self.label_13.setText(_translate("MainWindow", "Notification Message"))
+        self.label_13.setText(_translate("MainWindow", "WINTER STORM WARNING: prepare for inclement weather."))
         self.closeNotificationButton.setToolTip(_translate("MainWindow", "Close Notification"))
-        self.label_15.setText(_translate("MainWindow", "Free App brought to you by Speiser UInlimited"))
+        self.label_15.setText(_translate("MainWindow", "Free App brought to you by Speiser Unlimited"))
+
+
 from Custom_Widgets.Widgets import QCustomSlideMenu, QCustomStackedWidget
-import icons_rc
+import resources_rc

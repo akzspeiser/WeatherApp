@@ -3,11 +3,8 @@
 ########################################################################
 import sys
 
-
-
 from PyQt5.QtWidgets import QApplication
 from PySide2 import *
-
 
 ########################################################################
 # IMPORT GUI FILE
@@ -17,6 +14,8 @@ from ui_interface2 import *
 ########################################################################
 # IMPORT Custom widgets
 from Custom_Widgets import *
+
+
 ########################################################################
 
 
@@ -34,9 +33,7 @@ class MainWindow(QMainWindow):
         ########################################################################
         # self = QMainWindow class
         # self.ui = Ui_MainWindow / user interface class
-        loadJsonStyle(self, self.ui, jsonFiles={
-            "JsonStyle/style.json"
-        })
+        loadJsonStyle(self, self.ui)
         ########################################################################
 
         ########################################################################
@@ -54,6 +51,7 @@ class MainWindow(QMainWindow):
         self.ui.closeRightMenuButton.clicked.connect(lambda: self.ui.rightMenuContainer.collapseMenu())
 
         self.ui.closeNotificationButton.clicked.connect(lambda: self.ui.popupNotificationContainer.collapseMenu())
+
 
 ########################################################################
 ## EXECUTE APP

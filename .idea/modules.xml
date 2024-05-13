@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CS361-Microservices/.idea/CS361-Microservices.iml" filepath="$PROJECT_DIR$/../CS361-Microservices/.idea/CS361-Microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WeatherApp.iml" filepath="$PROJECT_DIR$/.idea/WeatherApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cs361-project (teamate)/.idea/cs361-project (teamate).iml" filepath="$PROJECT_DIR$/../cs361-project (teamate)/.idea/cs361-project (teamate).iml" />
     </modules>
   </component>
 </project>
