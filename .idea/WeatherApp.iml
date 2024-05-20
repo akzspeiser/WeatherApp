@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.9 (WeatherApp)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="cs361-project (teamate)" />
     <orderEntry type="module" module-name="CS361-Microservices" />
   </component>
 </module>
