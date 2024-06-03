@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../GitHub/cs361-temperature-converter-microservice" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../CS361-Microservices" vcs="Git" />
   </component>
 </project>
